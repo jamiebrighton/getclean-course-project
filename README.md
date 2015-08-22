@@ -6,8 +6,8 @@ The files in this repository have been written to answer the requirements of the
 
 The repository consists of three files:
 - *readMe.md* - this file explaining the repository and scripts
-- codeBook.md - a data dictionary for the data analysed in this project
-- run_analysis.R - a single R script that processes a specific dataset as defined in codeBook.md and in accordance with the requirements laid out in this readMe file
+- *codeBook.md* - a data dictionary for the data analysed in this project
+- *run_analysis.R* - a single R script that processes a specific dataset as defined in codeBook.md and in accordance with the requirements laid out in this readMe file
 
 This project requires processed the following data set:
 
@@ -25,6 +25,6 @@ The run_analysis.R file carries out the following actions:
 
 The run_analysis.R file contains two functions:
 
-import_data() - this function takes one argument "datatype" and uses this to source and merge the data for a particular type of records - either the training or test data
+*import_data()* - this function takes one argument "datatype" and uses this to source and merge the data for a particular type of records - either the training or test data
 
-run_analysis() - this function calls import_data() to load the raw data in to R, then merges the training and test together before carrying out a number of tidying functions on it. Finally it copies the data to a new tidy data set and calculates the mean of each activity for each subject.
+*run_analysis()* - this function calls import_data() to load the raw data in to R, then merges the training and test together before carrying out a number of tidying functions on it. Finally it copies the data to a new tidy data set and calculates the mean of each activity for each subject.

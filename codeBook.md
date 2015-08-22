@@ -2,6 +2,14 @@ codeBook.md
 
 DATA DICTIONARY - Getting & Cleaning Data Course Project
 
+This data dictionary extends the data contained and defined in the following location:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
+The output data combines training and test data to produce a tidy dataset containing the following variables:
+
+
 activity_type   Factor
 
         Activity Type
@@ -26,7 +34,7 @@ subject         2
                 1..30
                 
 
-Mean valued for the following measurements - all values are between -1 and 1
+Mean values per subject per activity for the following measurements: all values are between -1 and 1
 
 tBodyAcc-mean()-X
 

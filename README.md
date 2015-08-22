@@ -6,7 +6,9 @@ The files in this repository have been written to answer the requirements of the
 
 The repository consists of three files:
 readMe.md - this file explaining the repository and scripts
+
 codeBook.md - a data dictionary for the data analysed in this project
+
 run_analysis.R - a single R script that processes a specific dataset as defined in codeBook.md and in accordance with the requirements laid out in this readMe file
 
 This project requires processed the following data set:
